@@ -1,0 +1,17 @@
+C:\Users\LENOVO\source\repos\programacion_1\conversores\conversores\bin\Debug\net10.0-windows\conversores.exe
+C:\Users\LENOVO\source\repos\programacion_1\conversores\conversores\bin\Debug\net10.0-windows\conversores.deps.json
+C:\Users\LENOVO\source\repos\programacion_1\conversores\conversores\bin\Debug\net10.0-windows\conversores.runtimeconfig.json
+C:\Users\LENOVO\source\repos\programacion_1\conversores\conversores\bin\Debug\net10.0-windows\conversores.dll
+C:\Users\LENOVO\source\repos\programacion_1\conversores\conversores\bin\Debug\net10.0-windows\conversores.pdb
+C:\Users\LENOVO\source\repos\programacion_1\conversores\conversores\obj\Debug\net10.0-windows\conversores.Form1.resources
+C:\Users\LENOVO\source\repos\programacion_1\conversores\conversores\obj\Debug\net10.0-windows\conversores.csproj.GenerateResource.cache
+C:\Users\LENOVO\source\repos\programacion_1\conversores\conversores\obj\Debug\net10.0-windows\conversores.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LENOVO\source\repos\programacion_1\conversores\conversores\obj\Debug\net10.0-windows\conversores.AssemblyInfoInputs.cache
+C:\Users\LENOVO\source\repos\programacion_1\conversores\conversores\obj\Debug\net10.0-windows\conversores.AssemblyInfo.cs
+C:\Users\LENOVO\source\repos\programacion_1\conversores\conversores\obj\Debug\net10.0-windows\conversores.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\source\repos\programacion_1\conversores\conversores\obj\Debug\net10.0-windows\conversores.sourcelink.json
+C:\Users\LENOVO\source\repos\programacion_1\conversores\conversores\obj\Debug\net10.0-windows\conversores.dll
+C:\Users\LENOVO\source\repos\programacion_1\conversores\conversores\obj\Debug\net10.0-windows\refint\conversores.dll
+C:\Users\LENOVO\source\repos\programacion_1\conversores\conversores\obj\Debug\net10.0-windows\conversores.pdb
+C:\Users\LENOVO\source\repos\programacion_1\conversores\conversores\obj\Debug\net10.0-windows\conversores.genruntimeconfig.cache
+C:\Users\LENOVO\source\repos\programacion_1\conversores\conversores\obj\Debug\net10.0-windows\ref\conversores.dll
