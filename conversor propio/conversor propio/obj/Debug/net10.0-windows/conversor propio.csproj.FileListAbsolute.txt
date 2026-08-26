@@ -1,0 +1,17 @@
+C:\Users\LENOVO\source\repos\programacion_1\conversor propio\conversor propio\bin\Debug\net10.0-windows\conversor propio.exe
+C:\Users\LENOVO\source\repos\programacion_1\conversor propio\conversor propio\bin\Debug\net10.0-windows\conversor propio.deps.json
+C:\Users\LENOVO\source\repos\programacion_1\conversor propio\conversor propio\bin\Debug\net10.0-windows\conversor propio.runtimeconfig.json
+C:\Users\LENOVO\source\repos\programacion_1\conversor propio\conversor propio\bin\Debug\net10.0-windows\conversor propio.dll
+C:\Users\LENOVO\source\repos\programacion_1\conversor propio\conversor propio\bin\Debug\net10.0-windows\conversor propio.pdb
+C:\Users\LENOVO\source\repos\programacion_1\conversor propio\conversor propio\obj\Debug\net10.0-windows\conversor_propio.Form1.resources
+C:\Users\LENOVO\source\repos\programacion_1\conversor propio\conversor propio\obj\Debug\net10.0-windows\conversor propio.csproj.GenerateResource.cache
+C:\Users\LENOVO\source\repos\programacion_1\conversor propio\conversor propio\obj\Debug\net10.0-windows\conversor propio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LENOVO\source\repos\programacion_1\conversor propio\conversor propio\obj\Debug\net10.0-windows\conversor propio.AssemblyInfoInputs.cache
+C:\Users\LENOVO\source\repos\programacion_1\conversor propio\conversor propio\obj\Debug\net10.0-windows\conversor propio.AssemblyInfo.cs
+C:\Users\LENOVO\source\repos\programacion_1\conversor propio\conversor propio\obj\Debug\net10.0-windows\conversor propio.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\source\repos\programacion_1\conversor propio\conversor propio\obj\Debug\net10.0-windows\conversor propio.sourcelink.json
+C:\Users\LENOVO\source\repos\programacion_1\conversor propio\conversor propio\obj\Debug\net10.0-windows\conversor propio.dll
+C:\Users\LENOVO\source\repos\programacion_1\conversor propio\conversor propio\obj\Debug\net10.0-windows\refint\conversor propio.dll
+C:\Users\LENOVO\source\repos\programacion_1\conversor propio\conversor propio\obj\Debug\net10.0-windows\conversor propio.pdb
+C:\Users\LENOVO\source\repos\programacion_1\conversor propio\conversor propio\obj\Debug\net10.0-windows\conversor propio.genruntimeconfig.cache
+C:\Users\LENOVO\source\repos\programacion_1\conversor propio\conversor propio\obj\Debug\net10.0-windows\ref\conversor propio.dll

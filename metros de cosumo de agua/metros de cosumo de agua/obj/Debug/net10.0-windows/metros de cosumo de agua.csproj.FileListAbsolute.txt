@@ -1,0 +1,17 @@
+C:\Users\LENOVO\source\repos\programacion_1\metros de cosumo de agua\metros de cosumo de agua\bin\Debug\net10.0-windows\metros de cosumo de agua.exe
+C:\Users\LENOVO\source\repos\programacion_1\metros de cosumo de agua\metros de cosumo de agua\bin\Debug\net10.0-windows\metros de cosumo de agua.deps.json
+C:\Users\LENOVO\source\repos\programacion_1\metros de cosumo de agua\metros de cosumo de agua\bin\Debug\net10.0-windows\metros de cosumo de agua.runtimeconfig.json
+C:\Users\LENOVO\source\repos\programacion_1\metros de cosumo de agua\metros de cosumo de agua\bin\Debug\net10.0-windows\metros de cosumo de agua.dll
+C:\Users\LENOVO\source\repos\programacion_1\metros de cosumo de agua\metros de cosumo de agua\bin\Debug\net10.0-windows\metros de cosumo de agua.pdb
+C:\Users\LENOVO\source\repos\programacion_1\metros de cosumo de agua\metros de cosumo de agua\obj\Debug\net10.0-windows\metros_de_cosumo_de_agua.Form1.resources
+C:\Users\LENOVO\source\repos\programacion_1\metros de cosumo de agua\metros de cosumo de agua\obj\Debug\net10.0-windows\metros de cosumo de agua.csproj.GenerateResource.cache
+C:\Users\LENOVO\source\repos\programacion_1\metros de cosumo de agua\metros de cosumo de agua\obj\Debug\net10.0-windows\metros de cosumo de agua.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LENOVO\source\repos\programacion_1\metros de cosumo de agua\metros de cosumo de agua\obj\Debug\net10.0-windows\metros de cosumo de agua.AssemblyInfoInputs.cache
+C:\Users\LENOVO\source\repos\programacion_1\metros de cosumo de agua\metros de cosumo de agua\obj\Debug\net10.0-windows\metros de cosumo de agua.AssemblyInfo.cs
+C:\Users\LENOVO\source\repos\programacion_1\metros de cosumo de agua\metros de cosumo de agua\obj\Debug\net10.0-windows\metros de cosumo de agua.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\source\repos\programacion_1\metros de cosumo de agua\metros de cosumo de agua\obj\Debug\net10.0-windows\metros de cosumo de agua.sourcelink.json
+C:\Users\LENOVO\source\repos\programacion_1\metros de cosumo de agua\metros de cosumo de agua\obj\Debug\net10.0-windows\metros de cosumo de agua.dll
+C:\Users\LENOVO\source\repos\programacion_1\metros de cosumo de agua\metros de cosumo de agua\obj\Debug\net10.0-windows\refint\metros de cosumo de agua.dll
+C:\Users\LENOVO\source\repos\programacion_1\metros de cosumo de agua\metros de cosumo de agua\obj\Debug\net10.0-windows\metros de cosumo de agua.pdb
+C:\Users\LENOVO\source\repos\programacion_1\metros de cosumo de agua\metros de cosumo de agua\obj\Debug\net10.0-windows\metros de cosumo de agua.genruntimeconfig.cache
+C:\Users\LENOVO\source\repos\programacion_1\metros de cosumo de agua\metros de cosumo de agua\obj\Debug\net10.0-windows\ref\metros de cosumo de agua.dll

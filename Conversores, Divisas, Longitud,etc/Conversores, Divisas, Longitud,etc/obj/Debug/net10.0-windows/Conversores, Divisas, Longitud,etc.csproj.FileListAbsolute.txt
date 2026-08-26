@@ -1,0 +1,17 @@
+C:\Users\LENOVO\source\repos\programacion_1\Conversores, Divisas, Longitud,etc\Conversores, Divisas, Longitud,etc\bin\Debug\net10.0-windows\Conversores, Divisas, Longitud,etc.exe
+C:\Users\LENOVO\source\repos\programacion_1\Conversores, Divisas, Longitud,etc\Conversores, Divisas, Longitud,etc\bin\Debug\net10.0-windows\Conversores, Divisas, Longitud,etc.deps.json
+C:\Users\LENOVO\source\repos\programacion_1\Conversores, Divisas, Longitud,etc\Conversores, Divisas, Longitud,etc\bin\Debug\net10.0-windows\Conversores, Divisas, Longitud,etc.runtimeconfig.json
+C:\Users\LENOVO\source\repos\programacion_1\Conversores, Divisas, Longitud,etc\Conversores, Divisas, Longitud,etc\bin\Debug\net10.0-windows\Conversores, Divisas, Longitud,etc.dll
+C:\Users\LENOVO\source\repos\programacion_1\Conversores, Divisas, Longitud,etc\Conversores, Divisas, Longitud,etc\bin\Debug\net10.0-windows\Conversores, Divisas, Longitud,etc.pdb
+C:\Users\LENOVO\source\repos\programacion_1\Conversores, Divisas, Longitud,etc\Conversores, Divisas, Longitud,etc\obj\Debug\net10.0-windows\Conversores__Divisas__Longitud_etc.Form1.resources
+C:\Users\LENOVO\source\repos\programacion_1\Conversores, Divisas, Longitud,etc\Conversores, Divisas, Longitud,etc\obj\Debug\net10.0-windows\Conversores, Divisas, Longitud,etc.csproj.GenerateResource.cache
+C:\Users\LENOVO\source\repos\programacion_1\Conversores, Divisas, Longitud,etc\Conversores, Divisas, Longitud,etc\obj\Debug\net10.0-windows\Conversores, Divisas, Longitud,etc.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LENOVO\source\repos\programacion_1\Conversores, Divisas, Longitud,etc\Conversores, Divisas, Longitud,etc\obj\Debug\net10.0-windows\Conversores, Divisas, Longitud,etc.AssemblyInfoInputs.cache
+C:\Users\LENOVO\source\repos\programacion_1\Conversores, Divisas, Longitud,etc\Conversores, Divisas, Longitud,etc\obj\Debug\net10.0-windows\Conversores, Divisas, Longitud,etc.AssemblyInfo.cs
+C:\Users\LENOVO\source\repos\programacion_1\Conversores, Divisas, Longitud,etc\Conversores, Divisas, Longitud,etc\obj\Debug\net10.0-windows\Conversores, Divisas, Longitud,etc.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\source\repos\programacion_1\Conversores, Divisas, Longitud,etc\Conversores, Divisas, Longitud,etc\obj\Debug\net10.0-windows\Conversores, Divisas, Longitud,etc.sourcelink.json
+C:\Users\LENOVO\source\repos\programacion_1\Conversores, Divisas, Longitud,etc\Conversores, Divisas, Longitud,etc\obj\Debug\net10.0-windows\Conversores, Divisas, Longitud,etc.dll
+C:\Users\LENOVO\source\repos\programacion_1\Conversores, Divisas, Longitud,etc\Conversores, Divisas, Longitud,etc\obj\Debug\net10.0-windows\refint\Conversores, Divisas, Longitud,etc.dll
+C:\Users\LENOVO\source\repos\programacion_1\Conversores, Divisas, Longitud,etc\Conversores, Divisas, Longitud,etc\obj\Debug\net10.0-windows\Conversores, Divisas, Longitud,etc.pdb
+C:\Users\LENOVO\source\repos\programacion_1\Conversores, Divisas, Longitud,etc\Conversores, Divisas, Longitud,etc\obj\Debug\net10.0-windows\Conversores, Divisas, Longitud,etc.genruntimeconfig.cache
+C:\Users\LENOVO\source\repos\programacion_1\Conversores, Divisas, Longitud,etc\Conversores, Divisas, Longitud,etc\obj\Debug\net10.0-windows\ref\Conversores, Divisas, Longitud,etc.dll

@@ -1,0 +1,17 @@
+C:\Users\LENOVO\source\repos\programacion_1\n meses\n meses\bin\Debug\net10.0-windows\n meses.exe
+C:\Users\LENOVO\source\repos\programacion_1\n meses\n meses\bin\Debug\net10.0-windows\n meses.deps.json
+C:\Users\LENOVO\source\repos\programacion_1\n meses\n meses\bin\Debug\net10.0-windows\n meses.runtimeconfig.json
+C:\Users\LENOVO\source\repos\programacion_1\n meses\n meses\bin\Debug\net10.0-windows\n meses.dll
+C:\Users\LENOVO\source\repos\programacion_1\n meses\n meses\bin\Debug\net10.0-windows\n meses.pdb
+C:\Users\LENOVO\source\repos\programacion_1\n meses\n meses\obj\Debug\net10.0-windows\n_meses.Form1.resources
+C:\Users\LENOVO\source\repos\programacion_1\n meses\n meses\obj\Debug\net10.0-windows\n meses.csproj.GenerateResource.cache
+C:\Users\LENOVO\source\repos\programacion_1\n meses\n meses\obj\Debug\net10.0-windows\n meses.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LENOVO\source\repos\programacion_1\n meses\n meses\obj\Debug\net10.0-windows\n meses.AssemblyInfoInputs.cache
+C:\Users\LENOVO\source\repos\programacion_1\n meses\n meses\obj\Debug\net10.0-windows\n meses.AssemblyInfo.cs
+C:\Users\LENOVO\source\repos\programacion_1\n meses\n meses\obj\Debug\net10.0-windows\n meses.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\source\repos\programacion_1\n meses\n meses\obj\Debug\net10.0-windows\n meses.sourcelink.json
+C:\Users\LENOVO\source\repos\programacion_1\n meses\n meses\obj\Debug\net10.0-windows\n meses.dll
+C:\Users\LENOVO\source\repos\programacion_1\n meses\n meses\obj\Debug\net10.0-windows\refint\n meses.dll
+C:\Users\LENOVO\source\repos\programacion_1\n meses\n meses\obj\Debug\net10.0-windows\n meses.pdb
+C:\Users\LENOVO\source\repos\programacion_1\n meses\n meses\obj\Debug\net10.0-windows\n meses.genruntimeconfig.cache
+C:\Users\LENOVO\source\repos\programacion_1\n meses\n meses\obj\Debug\net10.0-windows\ref\n meses.dll

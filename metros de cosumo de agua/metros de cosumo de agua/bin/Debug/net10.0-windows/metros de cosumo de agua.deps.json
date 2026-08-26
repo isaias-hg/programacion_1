@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "metros de cosumo de agua/1.0.0": {
+        "runtime": {
+          "metros de cosumo de agua.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "metros de cosumo de agua/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

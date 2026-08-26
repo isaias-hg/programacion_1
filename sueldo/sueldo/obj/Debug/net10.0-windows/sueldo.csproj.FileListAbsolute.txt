@@ -1,0 +1,17 @@
+C:\Users\LENOVO\source\repos\programacion_1\sueldo\sueldo\bin\Debug\net10.0-windows\sueldo.exe
+C:\Users\LENOVO\source\repos\programacion_1\sueldo\sueldo\bin\Debug\net10.0-windows\sueldo.deps.json
+C:\Users\LENOVO\source\repos\programacion_1\sueldo\sueldo\bin\Debug\net10.0-windows\sueldo.runtimeconfig.json
+C:\Users\LENOVO\source\repos\programacion_1\sueldo\sueldo\bin\Debug\net10.0-windows\sueldo.dll
+C:\Users\LENOVO\source\repos\programacion_1\sueldo\sueldo\bin\Debug\net10.0-windows\sueldo.pdb
+C:\Users\LENOVO\source\repos\programacion_1\sueldo\sueldo\obj\Debug\net10.0-windows\sueldo.Form1.resources
+C:\Users\LENOVO\source\repos\programacion_1\sueldo\sueldo\obj\Debug\net10.0-windows\sueldo.csproj.GenerateResource.cache
+C:\Users\LENOVO\source\repos\programacion_1\sueldo\sueldo\obj\Debug\net10.0-windows\sueldo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LENOVO\source\repos\programacion_1\sueldo\sueldo\obj\Debug\net10.0-windows\sueldo.AssemblyInfoInputs.cache
+C:\Users\LENOVO\source\repos\programacion_1\sueldo\sueldo\obj\Debug\net10.0-windows\sueldo.AssemblyInfo.cs
+C:\Users\LENOVO\source\repos\programacion_1\sueldo\sueldo\obj\Debug\net10.0-windows\sueldo.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\source\repos\programacion_1\sueldo\sueldo\obj\Debug\net10.0-windows\sueldo.sourcelink.json
+C:\Users\LENOVO\source\repos\programacion_1\sueldo\sueldo\obj\Debug\net10.0-windows\sueldo.dll
+C:\Users\LENOVO\source\repos\programacion_1\sueldo\sueldo\obj\Debug\net10.0-windows\refint\sueldo.dll
+C:\Users\LENOVO\source\repos\programacion_1\sueldo\sueldo\obj\Debug\net10.0-windows\sueldo.pdb
+C:\Users\LENOVO\source\repos\programacion_1\sueldo\sueldo\obj\Debug\net10.0-windows\sueldo.genruntimeconfig.cache
+C:\Users\LENOVO\source\repos\programacion_1\sueldo\sueldo\obj\Debug\net10.0-windows\ref\sueldo.dll
