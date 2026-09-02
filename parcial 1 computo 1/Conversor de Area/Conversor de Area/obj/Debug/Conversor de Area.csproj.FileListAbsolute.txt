@@ -1,0 +1,10 @@
+C:\Users\Estudiante\source\repos\Conversor de Area\Conversor de Area\bin\Debug\Conversor de Area.exe.config
+C:\Users\Estudiante\source\repos\Conversor de Area\Conversor de Area\bin\Debug\Conversor de Area.exe
+C:\Users\Estudiante\source\repos\Conversor de Area\Conversor de Area\bin\Debug\Conversor de Area.pdb
+C:\Users\Estudiante\source\repos\Conversor de Area\Conversor de Area\obj\Debug\Conversor de Area.csproj.AssemblyReference.cache
+C:\Users\Estudiante\source\repos\Conversor de Area\Conversor de Area\obj\Debug\Conversor_de_Area.Form1.resources
+C:\Users\Estudiante\source\repos\Conversor de Area\Conversor de Area\obj\Debug\Conversor_de_Area.Properties.Resources.resources
+C:\Users\Estudiante\source\repos\Conversor de Area\Conversor de Area\obj\Debug\Conversor de Area.csproj.GenerateResource.cache
+C:\Users\Estudiante\source\repos\Conversor de Area\Conversor de Area\obj\Debug\Conversor de Area.csproj.CoreCompileInputs.cache
+C:\Users\Estudiante\source\repos\Conversor de Area\Conversor de Area\obj\Debug\Conversor de Area.exe
+C:\Users\Estudiante\source\repos\Conversor de Area\Conversor de Area\obj\Debug\Conversor de Area.pdb
