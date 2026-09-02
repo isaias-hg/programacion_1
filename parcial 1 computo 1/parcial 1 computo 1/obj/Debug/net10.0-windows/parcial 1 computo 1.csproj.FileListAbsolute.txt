@@ -1,0 +1,16 @@
+C:\Users\Estudiante\source\repos\parcial 1 computo 1\parcial 1 computo 1\bin\Debug\net10.0-windows\parcial 1 computo 1.exe
+C:\Users\Estudiante\source\repos\parcial 1 computo 1\parcial 1 computo 1\bin\Debug\net10.0-windows\parcial 1 computo 1.deps.json
+C:\Users\Estudiante\source\repos\parcial 1 computo 1\parcial 1 computo 1\bin\Debug\net10.0-windows\parcial 1 computo 1.runtimeconfig.json
+C:\Users\Estudiante\source\repos\parcial 1 computo 1\parcial 1 computo 1\bin\Debug\net10.0-windows\parcial 1 computo 1.dll
+C:\Users\Estudiante\source\repos\parcial 1 computo 1\parcial 1 computo 1\bin\Debug\net10.0-windows\parcial 1 computo 1.pdb
+C:\Users\Estudiante\source\repos\parcial 1 computo 1\parcial 1 computo 1\obj\Debug\net10.0-windows\parcial_1_computo_1.Form1.resources
+C:\Users\Estudiante\source\repos\parcial 1 computo 1\parcial 1 computo 1\obj\Debug\net10.0-windows\parcial 1 computo 1.csproj.GenerateResource.cache
+C:\Users\Estudiante\source\repos\parcial 1 computo 1\parcial 1 computo 1\obj\Debug\net10.0-windows\parcial 1 computo 1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Estudiante\source\repos\parcial 1 computo 1\parcial 1 computo 1\obj\Debug\net10.0-windows\parcial 1 computo 1.AssemblyInfoInputs.cache
+C:\Users\Estudiante\source\repos\parcial 1 computo 1\parcial 1 computo 1\obj\Debug\net10.0-windows\parcial 1 computo 1.AssemblyInfo.cs
+C:\Users\Estudiante\source\repos\parcial 1 computo 1\parcial 1 computo 1\obj\Debug\net10.0-windows\parcial 1 computo 1.csproj.CoreCompileInputs.cache
+C:\Users\Estudiante\source\repos\parcial 1 computo 1\parcial 1 computo 1\obj\Debug\net10.0-windows\parcial 1 computo 1.dll
+C:\Users\Estudiante\source\repos\parcial 1 computo 1\parcial 1 computo 1\obj\Debug\net10.0-windows\refint\parcial 1 computo 1.dll
+C:\Users\Estudiante\source\repos\parcial 1 computo 1\parcial 1 computo 1\obj\Debug\net10.0-windows\parcial 1 computo 1.pdb
+C:\Users\Estudiante\source\repos\parcial 1 computo 1\parcial 1 computo 1\obj\Debug\net10.0-windows\parcial 1 computo 1.genruntimeconfig.cache
+C:\Users\Estudiante\source\repos\parcial 1 computo 1\parcial 1 computo 1\obj\Debug\net10.0-windows\ref\parcial 1 computo 1.dll
