@@ -1,0 +1,17 @@
+C:\Users\LENOVO\source\repos\programacion_1\sistema estadistico\sistema estadistico\bin\Debug\net10.0-windows\sistema estadistico.exe
+C:\Users\LENOVO\source\repos\programacion_1\sistema estadistico\sistema estadistico\bin\Debug\net10.0-windows\sistema estadistico.deps.json
+C:\Users\LENOVO\source\repos\programacion_1\sistema estadistico\sistema estadistico\bin\Debug\net10.0-windows\sistema estadistico.runtimeconfig.json
+C:\Users\LENOVO\source\repos\programacion_1\sistema estadistico\sistema estadistico\bin\Debug\net10.0-windows\sistema estadistico.dll
+C:\Users\LENOVO\source\repos\programacion_1\sistema estadistico\sistema estadistico\bin\Debug\net10.0-windows\sistema estadistico.pdb
+C:\Users\LENOVO\source\repos\programacion_1\sistema estadistico\sistema estadistico\obj\Debug\net10.0-windows\sistema_estadistico.Form1.resources
+C:\Users\LENOVO\source\repos\programacion_1\sistema estadistico\sistema estadistico\obj\Debug\net10.0-windows\sistema estadistico.csproj.GenerateResource.cache
+C:\Users\LENOVO\source\repos\programacion_1\sistema estadistico\sistema estadistico\obj\Debug\net10.0-windows\sistema estadistico.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LENOVO\source\repos\programacion_1\sistema estadistico\sistema estadistico\obj\Debug\net10.0-windows\sistema estadistico.AssemblyInfoInputs.cache
+C:\Users\LENOVO\source\repos\programacion_1\sistema estadistico\sistema estadistico\obj\Debug\net10.0-windows\sistema estadistico.AssemblyInfo.cs
+C:\Users\LENOVO\source\repos\programacion_1\sistema estadistico\sistema estadistico\obj\Debug\net10.0-windows\sistema estadistico.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\source\repos\programacion_1\sistema estadistico\sistema estadistico\obj\Debug\net10.0-windows\sistema estadistico.sourcelink.json
+C:\Users\LENOVO\source\repos\programacion_1\sistema estadistico\sistema estadistico\obj\Debug\net10.0-windows\sistema estadistico.dll
+C:\Users\LENOVO\source\repos\programacion_1\sistema estadistico\sistema estadistico\obj\Debug\net10.0-windows\refint\sistema estadistico.dll
+C:\Users\LENOVO\source\repos\programacion_1\sistema estadistico\sistema estadistico\obj\Debug\net10.0-windows\sistema estadistico.pdb
+C:\Users\LENOVO\source\repos\programacion_1\sistema estadistico\sistema estadistico\obj\Debug\net10.0-windows\sistema estadistico.genruntimeconfig.cache
+C:\Users\LENOVO\source\repos\programacion_1\sistema estadistico\sistema estadistico\obj\Debug\net10.0-windows\ref\sistema estadistico.dll
