@@ -1,0 +1,30 @@
+@page
+@{ ViewData["Title"] = "Inicio"; ViewData["Seccion"] = "inicio"; }
+
+<section class="hero">
+    <h1>Bienvenido a la Página Web Oficial</h1>
+    <p>Calcula, convierte, ponte a prueba y revisa todo lo que has hecho. Elige una de las cinco opciones.</p>
+</section>
+
+<div class="menu">
+    <a class="opcion" style="--c:#1f4e9c" asp-page="/Calculadora">
+        <span class="icono">🧮</span><strong>Calculadora</strong>
+        <span class="txt">Suma, resta, multiplica, divide, potencia y residuo.</span><span class="ir">Abrir</span>
+    </a>
+    <a class="opcion" style="--c:#0f766e" asp-page="/Conversor">
+        <span class="icono">💱</span><strong>Conversor</strong>
+        <span class="txt">Monedas y unidades de longitud.</span><span class="ir">Abrir</span>
+    </a>
+    <a class="opcion" style="--c:#5b3fa0" asp-page="/Quiz">
+        <span class="icono">📝</span><strong>Quiz</strong>
+        <span class="txt">Preguntas sobre la calculadora y el conversor.</span><span class="ir">Abrir</span>
+    </a>
+    <a class="opcion" style="--c:#a8651a" asp-page="/Historial">
+        <span class="icono">🕘</span><strong>Historial</strong>
+        <span class="txt">El detalle de cada actividad que realizaste.</span><span class="ir">Abrir</span>
+    </a>
+    <a class="opcion" style="--c:#9b1c31" asp-page="/Salir">
+        <span class="icono">🚪</span><strong>Salir</strong>
+        <span class="txt">Cierra la página.</span><span class="ir">Salir</span>
+    </a>
+</div>

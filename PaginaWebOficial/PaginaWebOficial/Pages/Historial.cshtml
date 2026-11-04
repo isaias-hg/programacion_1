@@ -1,0 +1,63 @@
+@page
+@{ ViewData["Title"] = "Historial"; ViewData["Seccion"] = "hist"; ViewData["Regreso"] = true; }
+@functions {
+    static readonly string[] Categorias = { "Calculadora", "Conversor", "Quiz", "Salida" };
+    static string Color(string c) => c switch { "Calculadora" => "#1f4e9c", "Conversor" => "#0f766e", "Quiz" => "#5b3fa0", _ => "#9b1c31" };
+
+    public List<Entrada> Items { get; set; } = new();
+    public Dictionary<string, int> Conteo { get; set; } = new();
+    public int Total { get; set; }
+    public string Filtro { get; set; } = "Todos";
+
+    public void OnGet(string? cat)
+    {
+        var todo = RegistroHistorial.Obtener();
+        Total = todo.Count;
+        Conteo = todo.GroupBy(e => e.Categoria).ToDictionary(g => g.Key, g => g.Count());
+        Filtro = Categorias.Contains(cat) ? cat! : "Todos";
+        Items = Filtro == "Todos" ? todo : todo.Where(e => e.Categoria == Filtro).ToList();
+    }
+
+    public IActionResult OnPostLimpiar()
+    {
+        RegistroHistorial.Limpiar();
+        return RedirectToPage();
+    }
+}
+
+<h1 class="titulo">Historial</h1>
+<p class="sub">Aquí queda guardado el detalle de cada actividad: operaciones, conversiones, respuestas del quiz y salidas.</p>
+
+<div class="filtros">
+    <a class="@(Filtro == "Todos" ? "activo" : "")" asp-page="/Historial">Todos (@Total)</a>
+    @foreach (var c in Categorias)
+    {
+        <a class="@(Filtro == c ? "activo" : "")" asp-page="/Historial" asp-route-cat="@c">@c (@(Conteo.GetValueOrDefault(c)))</a>
+    }
+</div>
+
+@if (Items.Count == 0)
+{
+    <div class="panel vacio">Todavía no hay actividades en esta vista. Usa la calculadora, el conversor o el quiz y aparecerán aquí.</div>
+}
+else
+{
+    <div class="scroll">
+        <table class="tabla">
+            <thead><tr><th>Fecha y hora</th><th>Actividad</th><th>Detalle</th></tr></thead>
+            <tbody>
+                @foreach (var e in Items)
+                {
+                    <tr>
+                        <td>@e.Fecha.ToString("dd/MM/yyyy HH:mm:ss")</td>
+                        <td><span class="badge" style="--c:@Color(e.Categoria)">@e.Categoria</span></td>
+                        <td class="det">@e.Detalle</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+    <form method="post" asp-page-handler="Limpiar" class="acciones">
+        <button class="peligro" onclick="return confirm('¿Borrar todo el historial?')">Borrar historial</button>
+    </form>
+}

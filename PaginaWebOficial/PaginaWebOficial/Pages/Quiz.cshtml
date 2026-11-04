@@ -1,0 +1,68 @@
+@page
+@{ ViewData["Title"] = "Quiz"; ViewData["Seccion"] = "quiz"; ViewData["Regreso"] = true; }
+@functions {
+    record Pregunta(string Texto, string[] Opciones, int Correcta);
+
+    static readonly Pregunta[] Preguntas =
+    {
+        new("En la calculadora, ¿cuánto es 15 ÷ 4?", new[] { "3.75", "4", "3.5", "3.25" }, 0),
+        new("¿Qué muestra la calculadora al dividir entre cero?", new[] { "0", "Infinito", "Un mensaje de error", "1" }, 2),
+        new("¿Cuánto es 2 ^ 5?", new[] { "10", "25", "32", "64" }, 2),
+        new("¿Cuánto da 17 mod 5 (residuo)?", new[] { "2", "3", "5", "12" }, 0),
+        new("¿Cuántos centímetros hay en 1 metro?", new[] { "10", "100", "1000", "12" }, 1),
+        new("¿Cuántos metros tiene 1 kilómetro?", new[] { "100", "500", "1000", "10000" }, 2),
+        new("¿Cuántas pulgadas (in) hay en 1 pie (ft)?", new[] { "10", "12", "16", "36" }, 1),
+        new("Si 1 USD = 0.92 EUR, ¿cuántos EUR son 100 USD?", new[] { "9.2", "92", "920", "108" }, 1),
+    };
+
+    public bool Calificado { get; set; }
+    public int Puntos { get; set; }
+    public int[] Elegidas { get; set; } = Array.Empty<int>();
+
+    public void OnPost()
+    {
+        Elegidas = Preguntas
+            .Select((_, i) => int.TryParse(Request.Form[$"q{i}"].ToString(), out var v) ? v : -1)
+            .ToArray();
+        Puntos = Elegidas.Where((e, i) => e == Preguntas[i].Correcta).Count();
+        Calificado = true;
+
+        var detalle = new System.Text.StringBuilder($"Puntaje: {Puntos} de {Preguntas.Length}");
+        for (int i = 0; i < Preguntas.Length; i++)
+        {
+            var p = Preguntas[i];
+            string resp = Elegidas[i] >= 0 ? p.Opciones[Elegidas[i]] : "sin responder";
+            string estado = Elegidas[i] == p.Correcta ? "✔ correcta" : $"✘ incorrecta (correcta: {p.Opciones[p.Correcta]})";
+            detalle.Append($"\n{i + 1}. {p.Texto} Respondió: {resp} → {estado}");
+        }
+        RegistroHistorial.Agregar("Quiz", detalle.ToString());
+    }
+}
+
+<h1 class="titulo">Quiz</h1>
+@if (Calificado)
+{
+    <div class="lcd">Resultado: @Puntos / @Preguntas.Length</div>
+}
+
+<form method="post" class="panel">
+    @for (int i = 0; i < Preguntas.Length; i++)
+    {
+        var p = Preguntas[i];
+        <fieldset class="pregunta @(!Calificado ? "" : Elegidas[i] == p.Correcta ? "acierto" : "fallo")">
+            <legend><span class="num">@(i + 1)</span>@p.Texto</legend>
+            @for (int j = 0; j < p.Opciones.Length; j++)
+            {
+                string clase = !Calificado ? "" : j == p.Correcta ? "ok" : (Elegidas[i] == j ? "mal" : "");
+                <label class="opc @clase">
+                    <input type="radio" name="q@(i)" value="@j" checked="@(Calificado && Elegidas[i] == j)" required disabled="@Calificado" />
+                    <span>@p.Opciones[j]</span>
+                    @if (clase == "ok") { <span class="marca">✔ @(Elegidas[i] == j ? "Tu respuesta: correcta" : "Respuesta correcta")</span> }
+                    else if (clase == "mal") { <span class="marca">✘ Tu respuesta: incorrecta</span> }
+                </label>
+            }
+        </fieldset>
+    }
+    @if (Calificado) { <a class="btn" asp-page="/Quiz">Intentar de nuevo</a> }
+    else { <button class="ancho">Calificar</button> }
+</form>

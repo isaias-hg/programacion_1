@@ -1,0 +1,71 @@
+@page
+@{ ViewData["Title"] = "Conversor"; ViewData["Seccion"] = "conv"; ViewData["Regreso"] = true; }
+@functions {
+    // Tasas aproximadas por 1 USD (edítalas a tu gusto)
+    static readonly Dictionary<string, double> Monedas = new()
+    {
+        ["USD"] = 1, ["EUR"] = 0.92, ["GBP"] = 0.78, ["MXN"] = 18.0,
+        ["GTQ"] = 7.7, ["COP"] = 4000, ["CRC"] = 520, ["JPY"] = 150
+    };
+    // Valor de cada unidad en metros
+    static readonly Dictionary<string, double> Longitudes = new()
+    {
+        ["mm"] = 0.001, ["cm"] = 0.01, ["m"] = 1, ["km"] = 1000,
+        ["in"] = 0.0254, ["ft"] = 0.3048, ["yd"] = 0.9144, ["mi"] = 1609.344
+    };
+
+    [BindProperty] public double? Monto { get; set; }
+    [BindProperty] public string? De { get; set; }
+    [BindProperty] public string? Hacia { get; set; }
+    public string Tipo { get; set; } = "";
+    public string? Resultado { get; set; }
+
+    public void OnPostMoneda()
+    {
+        Tipo = "moneda";
+        if (De is null || Hacia is null || !Monedas.TryGetValue(De, out var o) || !Monedas.TryGetValue(Hacia, out var d)) return;
+        Mostrar("Moneda", Monto.GetValueOrDefault() / o * d);
+    }
+
+    public void OnPostLongitud()
+    {
+        Tipo = "longitud";
+        if (De is null || Hacia is null || !Longitudes.TryGetValue(De, out var o) || !Longitudes.TryGetValue(Hacia, out var d)) return;
+        Mostrar("Longitud", Monto.GetValueOrDefault() * o / d);
+    }
+
+    void Mostrar(string categoria, double r)
+    {
+        Resultado = $"{Monto:0.####} {De} = {r:N4} {Hacia}";
+        RegistroHistorial.Agregar("Conversor", $"{categoria}: {Resultado}");
+    }
+}
+
+<h1 class="titulo">Conversor</h1>
+<div class="dos">
+    @foreach (var (titulo, icono, handler, clave, datos, porDefecto) in new[]
+    {
+        ("Monedas", "💵", "Moneda", "moneda", Monedas.Keys.ToArray(), ("USD", "EUR")),
+        ("Longitud", "📏", "Longitud", "longitud", Longitudes.Keys.ToArray(), ("m", "ft"))
+    })
+    {
+        bool activo = Tipo == clave;
+        <form method="post" asp-page-handler="@handler" class="panel">
+            <h2>@icono @titulo</h2>
+            <label>Cantidad <input type="number" step="any" name="Monto" value="@(activo ? Monto : null)" required /></label>
+            <label>De
+                <select name="De">
+                    @foreach (var k in datos) { <option value="@k" selected="@(k == (activo ? De : porDefecto.Item1))">@k</option> }
+                </select>
+            </label>
+            <label>A
+                <select name="Hacia">
+                    @foreach (var k in datos) { <option value="@k" selected="@(k == (activo ? Hacia : porDefecto.Item2))">@k</option> }
+                </select>
+            </label>
+            <button class="ancho">Convertir</button>
+            @if (activo && Resultado is not null) { <div class="lcd">@Resultado</div> }
+        </form>
+    }
+</div>
+<p class="nota">Las tasas de cambio son aproximadas y fijas; modifícalas en <code>Pages/Conversor.cshtml</code>.</p>

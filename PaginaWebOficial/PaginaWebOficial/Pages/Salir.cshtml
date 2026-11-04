@@ -1,0 +1,25 @@
+@page
+@{ ViewData["Title"] = "Salir"; ViewData["Seccion"] = "salir"; }
+@functions {
+    public void OnGet() => RegistroHistorial.Agregar("Salida", "El usuario cerró la página");
+}
+
+<section class="panel centro">
+    <h1>Hasta pronto</h1>
+    <p id="msg">Cerrando la página…</p>
+    <button onclick="cerrar()">Cerrar pestaña</button>
+</section>
+
+@section Scripts {
+    <script>
+        function cerrar() {
+            window.open('', '_self');
+            window.close();
+            setTimeout(function () {
+                document.getElementById('msg').textContent =
+                    'Tu navegador no permite cerrar esta pestaña automáticamente. Ya puedes cerrarla tú mismo.';
+            }, 500);
+        }
+        setTimeout(cerrar, 1200);
+    </script>
+}

@@ -1,0 +1,55 @@
+@page
+@using System.Globalization
+@{ ViewData["Title"] = "Calculadora"; ViewData["Seccion"] = "calc"; ViewData["Regreso"] = true; }
+@functions {
+    [BindProperty] public double? A { get; set; }
+    [BindProperty] public double? B { get; set; }
+    public string? Resultado { get; set; }
+    public bool HayError { get; set; }
+
+    public void OnPost(string op)
+    {
+        var inv = CultureInfo.InvariantCulture;
+        double a = A.GetValueOrDefault(), b = B.GetValueOrDefault();
+        string nombre = op switch { "suma" => "Suma", "resta" => "Resta", "mult" => "Multiplicación", "div" => "División", "pot" => "Potencia", _ => "Residuo" };
+        string simbolo = op switch { "suma" => "+", "resta" => "−", "mult" => "×", "div" => "÷", "pot" => "^", _ => "mod" };
+        string izq = $"{a.ToString(inv)} {simbolo} {b.ToString(inv)}";
+
+        if ((op == "div" || op == "mod") && b == 0)
+        {
+            HayError = true;
+            Resultado = "Error: no se puede dividir entre cero";
+            RegistroHistorial.Agregar("Calculadora", $"{nombre}: {izq} → error (división entre cero)");
+            return;
+        }
+
+        double r = op switch
+        {
+            "suma" => a + b, "resta" => a - b, "mult" => a * b,
+            "div" => a / b, "pot" => Math.Pow(a, b), _ => a % b
+        };
+        Resultado = Math.Round(r, 10).ToString(inv);
+        RegistroHistorial.Agregar("Calculadora", $"{nombre}: {izq} = {Resultado}");
+    }
+}
+
+<h1 class="titulo">Calculadora</h1>
+<form method="post" class="panel">
+    <div class="fila">
+        <label>Número A <input type="number" step="any" name="A" value="@A" required /></label>
+        <label>Número B <input type="number" step="any" name="B" value="@B" required /></label>
+    </div>
+    <div class="teclas">
+        <button name="op" value="suma" title="Sumar">+</button>
+        <button name="op" value="resta" title="Restar">−</button>
+        <button name="op" value="mult" title="Multiplicar">×</button>
+        <button name="op" value="div" title="Dividir">÷</button>
+        <button name="op" value="pot" class="chica" title="A elevado a B">A^B</button>
+        <button name="op" value="mod" class="chica" title="Residuo">mod</button>
+    </div>
+    @if (Resultado is not null)
+    {
+        <div class="lcd @(HayError ? "error" : "")">@Resultado</div>
+    }
+    <p class="acciones"><a class="btn-sec" asp-page="/Calculadora">Limpiar</a></p>
+</form>
