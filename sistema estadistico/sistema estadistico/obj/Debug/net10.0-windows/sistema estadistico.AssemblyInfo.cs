@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("sistema estadistico")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3ef51111cb79e951494f287a81b21eed9f27d2db")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ec3ddf87992eac01233b05654ea94e03ccef13dd")]
 [assembly: System.Reflection.AssemblyProductAttribute("sistema estadistico")]
 [assembly: System.Reflection.AssemblyTitleAttribute("sistema estadistico")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
